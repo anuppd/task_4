@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.cur {
+    cursor: pointer;
+}
+
+nav {
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 1.9vh;
+}
+
+.logo {
+    width: 26vw;
+    display: inline-block;
+    font-size: 3.5vh;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    width: 27vw;
+    display: inline-block;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 0.6rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(142, 135, 135);
+    font-size: 18px;
+}
+
+.username {
+    width: 26vw;
+    display: inline-block;
+    text-align: end;
+}
+
+.username button {
+    border: none;
+    height: 3rem;
+    width: 9rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    color: rgb(24, 194, 213);
+    background-color: rgb(127, 225, 255);
+}
+
+.hero {
+    width: 80vw;
+    height: 99.5vh;
+    position: relative;
+    left: 10vw;
+}
+
+.left {
+    width: 40vw;
+    height: 99.5vh;
+    display: inline-block;
+}
+
+h1 {
+    padding-top: 20vh;
+    line-height: 13vh;
+    padding-bottom: 3px;
+    font-size: 90px;
+}
+
+h1 span {
+    color: rgb(21, 194, 194);
+}
+
+.left p {
+    line-height: 3.5vh;
+    font-size: 1.3rem;
+    color: rgb(80, 78, 78);
+}
+
+.left button {
+    margin-top: 10px;
+    border: none;
+    height: 4rem;
+    width: 20rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    color: wheat;
+    background-color: rgb(6, 174, 212);
+}
+
+.right {
+    width: 40vw;
+    height: 99.5vh;
+    float: right;
+}
+
+.right img {
+    height: 50vh;
+    position: relative;
+    top: 25vh;
+    left: 3vw;
+}
